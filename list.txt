@@ -2,3 +2,4 @@ Top: Irelia, Jax;
 Jungle: Amumu, Kha'zix, Nocturne;
 Middle: Azir, Ahri, Yasuo, Yone;
 Adc: Caitlyn, Miss Fortune, Tristana;
+Support: Yuumi, Nami, Soraka, Leona;
