@@ -66,14 +66,14 @@ while filename != "exit":
         file.close()
 
 
-        print('{:<8} {:<13} {:<4} {:<12}'.format("", "Blue", "vs", "Red"))
+        print('{:<9} {:<9} {:<8} {:<12}'.format("", "Blue", "vs", "Red"))
 
         # choose 2 random names from each set
         for key in dict_of_names:
             two_random_names = random.sample(dict_of_names[key], 2)
 
             # Print the key and the two random names
-            print('{:<7} {:<13} {:<4} {:<12}'.format(key + ':', two_random_names[0], " ", two_random_names[1]))
+            print('{:<8} {:<13} {:<4} {:<12}'.format(key + ':', two_random_names[0], " ", two_random_names[1]))
     else:
         print(filename + " doesn't exist.")
 
